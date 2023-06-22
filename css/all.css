@@ -1,0 +1,209 @@
+*, ::after, ::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  position: relative;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+.centered {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.primary {
+  margin-top: 63px;
+}
+
+.logo_header {
+  margin-bottom: 40px;
+}
+
+.logo {
+  color: #000;
+  font-size: 80px;
+  line-height: 94px;
+  text-decoration: none;
+}
+.logo .txt_color {
+  color: #4bcaff;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav_list_holder {
+  height: 69px;
+}
+
+.vertical_line {
+  display: block;
+  height: 69px;
+  border: 1px solid #fff;
+  margin: 0;
+}
+
+.nav_list {
+  background-color: #35444f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
+  height: 69px;
+}
+.nav_list :hover {
+  background: #222f3a;
+  cursor: pointer;
+}
+.nav_list .activ_nav {
+  height: 69px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 32px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 52px;
+  margin-top: 48px;
+  margin-bottom: 51px;
+}
+main figure {
+  max-width: 885px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 885px;
+          flex: 0 0 885px;
+  border: 1px solid #000;
+  margin: 0;
+}
+main figure img {
+  margin: 0 auto;
+  display: block;
+  width: 320px;
+  padding-top: 75px;
+  padding-bottom: 73px;
+}
+main .sidebar {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 344px;
+          flex: 0 0 344px;
+  border: 1px solid #000;
+  height: 407px;
+}
+main .sidebar .sidebar_nav {
+  font-size: 27px;
+  line-height: 27px;
+  color: #495863;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  padding: 0;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+main .sidebar .sidebar_nav :hover {
+  background-color: #dbdbdb;
+  color: #000;
+}
+main .item {
+  height: 81px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .item span {
+  padding-left: 44px;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  cursor: pointer;
+}
+main .item span:hover {
+  -webkit-transform: translateX(44px);
+      -ms-transform: translateX(44px);
+          transform: translateX(44px);
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(99, 105, 110, 0.48);
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 30px;
+}
+footer .footer_nav_part .footer_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+footer .footer_nav_part .footer_nav a {
+  z-index: 50;
+  color: #0c1927;
+  text-decoration: none;
+  font-size: 27px;
+  line-height: 27px;
+}
+footer .footer_nav_part .footer_nav a:hover {
+  color: #3181a6;
+  text-decoration: underline;
+}
+footer .copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  line-height: 24px;
+}/*# sourceMappingURL=all.css.map */
